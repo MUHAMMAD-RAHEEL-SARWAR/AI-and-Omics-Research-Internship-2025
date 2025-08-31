@@ -9,7 +9,6 @@
 # ===================================================================
 
 
-
 # Define the classify_gene() function as specified in the assignment
 classify_gene <- function(logFC, padj) {
   if (logFC > 1 & padj < 0.05) {
